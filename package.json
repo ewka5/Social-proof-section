@@ -1,0 +1,12 @@
+{
+  "name": "social-proof-section-master",
+  "scripts": {
+    "start": "parcel serve ./src/index.html",
+    "build": "parcel build ./src/index.html --dist-dir build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.0.0-beta.3.1"
+  }
+}
