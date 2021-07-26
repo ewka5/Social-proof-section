@@ -161,6 +161,18 @@ $margin-step: 40px;
 
     }
 
+    .rating-block {
+        display: flex;
+        column-gap: 25px;
+        align-items: center;
+        padding: 20px 0;
+    }
+
+    .rating-block .stars {
+        margin-left: 20px;
+        margin-bottom: 0;
+    }
+
     .rating-block_reviews {
         @include horizontal-margin(0);
     }
